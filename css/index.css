@@ -28,4 +28,12 @@
     list-style: none;
     font: normal 18px/100px 微软雅黑;
     color: #fff;
+    text-align: center;
+}
+.menu_list li:hover{
+    background: cornflowerblue;
+}
+.user{
+    float: right;
+
 }
