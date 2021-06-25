@@ -1,3 +1,7 @@
+body{
+    background: #eef2ff;
+}
+
 .top_menu{
     background-color: rgb(5, 78, 236);
     /* width: 300px; */
@@ -17,8 +21,6 @@
 }
 .menu_list ul{
     margin: 0;
-    /* border: 0px;
-    padding: 0px; */
 }
 
 .menu_list li{
@@ -35,5 +37,23 @@
 }
 .user{
     float: right;
-
+    color: #ffffff;
+    font: normal 16px/40px 微软雅黑;
+    margin: 45px 40px;
+}
+.left_menu{
+    position: absolute;
+    top: 120px;
+    left: 0;
+    width: 300px;
+    height: 1000px;
+    background: #ffffff;
+}
+.content{
+    width: 1190px;
+    height: 1000px;
+    position: absolute;
+    left: 320px;
+    top: 120px;
+    background: #ffffff;
 }
