@@ -67,6 +67,9 @@ body{
     text-indent: 50px;
     float: left;
     color: rgba(51,62,82,0.73);
+    /*background-image: url("");*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: 240px;*/
 }
 .content{
     width: 1190px;
@@ -100,12 +103,10 @@ body{
     font: normal 18px/35px "Microsoft Himalaya";
     color: #939292;
 }
-.pro_info a{
-    width: 40%;
-    height: 23px;
-    font: normal 18px/135px "Microsoft Himalaya";
-    color: #ffffff;
-    background: blue;
-    border-radius: 3px;
-    text-align: center;
+.del_pro {
+    border-radius: 30px;
+    font: normal 20px/30px "Microsoft Himalaya";
+    background: #0033cc;
+    width: 100px;
+    margin: 45px auto auto auto;
 }
